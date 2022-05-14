@@ -1,1 +1,18 @@
+//加减法  可能会溢出超出整形指
+#include <stdio.h>
+int main()
+{
+int a=3;
+int b=5;
+a=a+b;
+//a=8
+//b=5
+b=a-b;//8-5  3
+a=a-b;
+//异或的方法
+printf("%d %d\n",a,b);
 
+return 0;
+
+
+}
